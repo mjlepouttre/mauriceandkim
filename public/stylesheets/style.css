@@ -1,6 +1,7 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #fef7e7;
 }
 
 @media (min-width: 768px) {
@@ -13,6 +14,10 @@ a {
   color: #00B7FF;
 }
 
+.navbar {
+  background-color: #a1c6b3;
+  font-family: 'IM Fell English SC', serif;
+}
 .navbar-header {
   float: none;
 }
@@ -45,6 +50,17 @@ a {
     margin-right:-4px;
 }
 
-.panel-default > .panel-custom-green {
+.panel-default > .panel-heading {
   background-color: #a1c6b3;
+  font-family: 'IM Fell English SC', serif;
+  font-size: 18px;
+}
+
+.panel-default > .panel-body {
+  font-family: 'Cormorant Infant', serif;
+  font-size: 15px;
+}
+
+.welcome {
+  font-family: 'Fredericka the Great', cursive;
 }
