@@ -14,4 +14,8 @@ router.get('/ceremony', function(req, res, next) {
   res.render('ceremony');
 });
 
+router.get('/info', function(req, res, next) {
+  res.render('info');
+});
+
 module.exports = router;
