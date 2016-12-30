@@ -26,4 +26,8 @@ router.get('/things-to-do', function(req, res, next) {
   res.render('things-to-do');
 });
 
+router.get('/dining-nightlife', function(req, res, next) {
+  res.render('dining-nightlife');
+});
+
 module.exports = router;
