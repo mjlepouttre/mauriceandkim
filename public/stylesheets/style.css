@@ -64,3 +64,9 @@ a {
 .welcome {
   font-family: 'Fredericka the Great', cursive;
 }
+
+.rsvp {
+  background-color: #a1c6b3;
+  border-color: #a1c6b3;
+  color: black;
+}
